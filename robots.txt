@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://christianblunden.github.io/sitemap.xml 

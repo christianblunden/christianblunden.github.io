@@ -1,12 +1,60 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+        <loc>http://christianblunden.github.io/blog/2009/06/07/200906hi-momhtml/</loc>
+        <lastmod>2013-12-03T22:34:27+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://christianblunden.github.io/blog/2009/09/15/200909so-whats-in-namehtml/</loc>
+        <lastmod>2013-12-03T22:34:27+00:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://christianblunden.github.io/blog/2010/02/16/201002menage-trois-in-kinky-teamshtml/
+        </loc>
+        <lastmod>2013-12-03T22:34:27+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://christianblunden.github.io/blog/2010/06/03/201006living-prototypeshtml/</loc>
+        <lastmod>2013-12-03T22:34:27+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://christianblunden.github.io/blog/2010/11/28/201011back-in-gamehtml/</loc>
+        <lastmod>2013-12-03T22:34:27+00:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://christianblunden.github.io/blog/2010/12/06/201012minicabs-and-software-developmenthtml/
+        </loc>
+        <lastmod>2013-12-03T22:34:27+00:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://christianblunden.github.io/blog/2011/03/25/why-your-biztalk-project-will-fail/
+        </loc>
+        <lastmod>2013-12-03T22:34:27+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://christianblunden.github.io/blog/2011/06/06/circle-triangles-and-squares/</loc>
+        <lastmod>2013-12-03T22:34:27+00:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://christianblunden.github.io/blog/2012/05/21/cloning-git-repo-into-existing-folder/
+        </loc>
+        <lastmod>2013-12-03T22:34:27+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://christianblunden.github.io/blog/2012/09/05/mincabs-continued/</loc>
+        <lastmod>2013-12-03T22:34:27+00:00</lastmod>
+    </url>
+    <url>
         <loc>http://christianblunden.github.io/blog/archives/</loc>
-        <lastmod>2013-12-03T21:02:27+00:00</lastmod>
+        <lastmod>2013-12-03T22:34:27+00:00</lastmod>
     </url>
     <url>
         <loc>http://christianblunden.github.io/</loc>
-        <lastmod>2013-12-03T21:02:27+00:00</lastmod>
+        <lastmod>2013-12-03T22:34:27+00:00</lastmod>
     </url>
     <url>
         <loc>http://christianblunden.github.io/robots.txt</loc>

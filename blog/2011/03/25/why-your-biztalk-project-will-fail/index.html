@@ -5,14 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Blog Archive - Developing the Right Brain</title>
+  <title>Why Your BizTalk Project Will Fail - Developing the Right Brain</title>
   <meta name="author" content="Christian Blunden">
 
   
-  <meta name="description" content="Blog Archive 2012 Mincabs Continued
-Sep 05 2012 Cloning Git Repo Into Existing Folder
-May 21 2012 2011 Circle, Triangles and Squares
-Jun 06 2011 Why &hellip;">
+  <meta name="description" content="Firstly let me say that I have never used Biztalk (except for a brief personal experience back in early naughtys.. but I didn&rsquo;t inhale). So I &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -21,7 +18,7 @@ Jun 06 2011 Why &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://christianblunden.github.io/blog/archives">
+  <link rel="canonical" href="http://christianblunden.github.io/blog/2011/03/25/why-your-biztalk-project-will-fail">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Developing the Right Brain" type="application/atom+xml">
@@ -79,131 +76,102 @@ Jun 06 2011 Why &hellip;">
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Blog Archive</h1>
+    
+      <h1 class="entry-title">Why Your BizTalk Project Will Fail</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-03-25T13:29:29+00:00" pubdate data-updated="true">Mar 25<span>th</span>, 2011</time>
+        
+           | <a href="#disqus_thread"
+             data-disqus-identifier="http://christianblunden.github.io">Comments</a>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives">
 
 
+<div class="entry-content"><p>Firstly let me say that I have never used Biztalk (except for a brief personal experience back in early naughtys.. but I didn&rsquo;t inhale).  So I have always fretted over attempting to convince architects not to use it as I could not speak from experience.  Sure I had heard about all the pain that people went through on a daily basis (Thoughtworks rescues many such installations) and the general concensus was to run in the other direction as quickly as possible.  Historically I would have treated this as a technical argument, but I think the solution is a lot simpler.</p>
 
-  
-  <h2>2012</h2>
+<p>So let&rsquo;s pretend for a second that you have a &ldquo;messaging&rdquo; problem, let&rsquo;s not get bogged down too much with the details.  Safe to say you probably arrived at this problem through accidental complexity of using a database as your integration strategy.  After time you had loads of services and applications tightly coupled together through database schema.  Hundreds and hundreds of tables, stored procedures and nightly batch jobs later, you end up with a big ball of mud that only few people really understand.  Cost and risk of change is high, as small changes require entire system tests as impacts ripple through the system.  Basically nothing gets done very quickly!</p>
 
-<article>
-  
-<h1><a href="/blog/2012/09/05/mincabs-continued/">Mincabs Continued</a></h1>
-<time datetime="2012-09-05T07:27:00+01:00" pubdate><span class='month'>Sep</span> <span class='day'>05</span> <span class='year'>2012</span></time>
+<p>You may have even dug your way into further accidental comlexity with SOAP and an amazing Service Orientated Architecture. Now you services are tightly coupled with XML and your business processes locked in stone.  This spaghetti junction of services has lead to a high cost of change. Basically nothing gets done very quickly!</p>
 
+<p>To be fair, you may have also had some essential complexity, with hundreds of services needing to collaborate with each other.  Each requiring their own formats and transformations.</p>
 
-</article>
+<p>Enter BizTalk. Now I am not going to say a bad word about Biztalk, that&rsquo;s not the point.  In fact, I&rsquo;ll even go as far to say that it is an amazing product (having never used it).  It will solve all your problems and eventually it will solve EVERYBODYS problems, because that&rsquo;s what Microsoft want and that is the point.  More featues will keep being added, it will even one day do <a href="http://en.wikipedia.org/wiki/HATEOAS">HATEOS</a> REST, because the cool kids do it.  Heck it probably even does it now for all I know.</p>
 
+<p>One thing it will never be is.. simple!</p>
 
-
-<article>
-  
-<h1><a href="/blog/2012/05/21/cloning-git-repo-into-existing-folder/">Cloning Git Repo Into Existing Folder</a></h1>
-<time datetime="2012-05-21T08:25:00+01:00" pubdate><span class='month'>May</span> <span class='day'>21</span> <span class='year'>2012</span></time>
-
-
-</article>
-
-
-
-  
-  <h2>2011</h2>
-
-<article>
-  
-<h1><a href="/blog/2011/06/06/circle-triangles-and-squares/">Circle, Triangles and Squares</a></h1>
-<time datetime="2011-06-06T03:53:00+01:00" pubdate><span class='month'>Jun</span> <span class='day'>06</span> <span class='year'>2011</span></time>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2011/03/25/why-your-biztalk-project-will-fail/">Why Your BizTalk Project Will Fail</a></h1>
-<time datetime="2011-03-25T13:29:29+00:00" pubdate><span class='month'>Mar</span> <span class='day'>25</span> <span class='year'>2011</span></time>
-
-
-</article>
-
-
-
-  
-  <h2>2010</h2>
-
-<article>
-  
-<h1><a href="/blog/2010/12/06/201012minicabs-and-software-developmenthtml/">Minicabs and Software Development</a></h1>
-<time datetime="2010-12-06T23:40:00+00:00" pubdate><span class='month'>Dec</span> <span class='day'>06</span> <span class='year'>2010</span></time>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2010/11/28/201011back-in-gamehtml/">Back in the Game</a></h1>
-<time datetime="2010-11-28T18:14:00+00:00" pubdate><span class='month'>Nov</span> <span class='day'>28</span> <span class='year'>2010</span></time>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2010/06/03/201006living-prototypeshtml/">Living Prototypes</a></h1>
-<time datetime="2010-06-03T14:00:00+01:00" pubdate><span class='month'>Jun</span> <span class='day'>03</span> <span class='year'>2010</span></time>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2010/02/16/201002menage-trois-in-kinky-teamshtml/">Ménage à Trois in Kinky Teams</a></h1>
-<time datetime="2010-02-16T19:52:00+00:00" pubdate><span class='month'>Feb</span> <span class='day'>16</span> <span class='year'>2010</span></time>
-
-
-</article>
-
-
-
-  
-  <h2>2009</h2>
-
-<article>
-  
-<h1><a href="/blog/2009/09/15/200909so-whats-in-namehtml/">So Whats in a Name?</a></h1>
-<time datetime="2009-09-15T19:24:00+01:00" pubdate><span class='month'>Sep</span> <span class='day'>15</span> <span class='year'>2009</span></time>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2009/06/07/200906hi-momhtml/">Hi Mom</a></h1>
-<time datetime="2009-06-07T20:03:00+01:00" pubdate><span class='month'>Jun</span> <span class='day'>07</span> <span class='year'>2009</span></time>
-
-
-</article>
-
+<p>Not everyone will understand Biztalk, they can&rsquo;t possibly, it&rsquo;s too complex, it&rsquo;s too big, it requires specialization.  All your systems will have requirements funnelled through a single messaging platform and only a handful of people will be able to do the work.  You will have created a huge bottleneck for work to pass though and&hellip; Basically nothing gets done very quickly!</p>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Christian Blunden</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-03-25T13:29:29+00:00" pubdate data-updated="true">Mar 25<span>th</span>, 2011</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://christianblunden.github.io/blog/2011/03/25/why-your-biztalk-project-will-fail/" data-via="christianralph" data-counturl="http://christianblunden.github.io/blog/2011/03/25/why-your-biztalk-project-will-fail/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2010/12/06/201012minicabs-and-software-developmenthtml/" title="Previous Post: Minicabs and Software development">&laquo; Minicabs and Software development</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2011/06/06/circle-triangles-and-squares/" title="Next Post: Circle, Triangles and Squares">Circle, Triangles and Squares &raquo;</a>
+      
+    </p>
+  </footer>
 </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 </div>
 
@@ -287,7 +255,10 @@ Jun 06 2011 Why &hellip;">
       var disqus_shortname = 'christianralph';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://christianblunden.github.io/blog/2011/03/25/why-your-biztalk-project-will-fail/';
+        var disqus_url = 'http://christianblunden.github.io/blog/2011/03/25/why-your-biztalk-project-will-fail/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
